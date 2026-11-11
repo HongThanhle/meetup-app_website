@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f6f7f2" />
+    <meta name="description" content="Chính sách quyền riêng tư của ứng dụng Điểm Hẹn." />
+    <title>Quyền riêng tư — Điểm Hẹn</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      .policy-wrap { width:min(820px, calc(100% - 40px)); margin:0 auto; padding:72px 0 90px; }
+      .policy-wrap h1 { margin:14px 0; font-size:clamp(34px,6vw,54px); line-height:1.15; letter-spacing:-2px; }
+      .policy-lede { color:var(--muted); font-size:15px; line-height:1.8; }
+      .policy-card { margin-top:30px; padding:clamp(22px,5vw,40px); border:1px solid var(--line); border-radius:22px; background:#fff; box-shadow:var(--shadow); }
+      .policy-card h2 { margin:26px 0 8px; font-size:18px; letter-spacing:-.4px; }
+      .policy-card h2:first-child { margin-top:0; }
+      .policy-card p, .policy-card li { color:var(--muted); font-size:13px; line-height:1.85; }
+      .policy-card ul { padding-left:20px; }
+      .policy-callout { margin-top:20px; padding:16px 18px; border-radius:14px; background:var(--green-soft); color:var(--green-dark); font-size:12px; line-height:1.7; }
+      .policy-actions { display:flex; flex-wrap:wrap; gap:12px; margin-top:22px; }
+      .policy-placeholder { padding:12px 14px; border:1px solid #e4be6d; border-radius:12px; color:#6e4d10; background:#fff8e8; font-size:12px; line-height:1.7; }
+      @media(max-width:600px) { .policy-wrap { padding-top:48px; } .policy-card { padding:21px; } }
+    </style>
+  </head>
+  <body>
+    <header class="site-header"><nav class="nav wrap" aria-label="Điều hướng chính"><a class="brand" href="./index.html"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M16 28s10-8.1 10-16a10 10 0 1 0-20 0c0 7.9 10 16 10 16Z" stroke="currentColor" stroke-width="2.2"/><circle cx="16" cy="12" r="3.5" fill="currentColor"/></svg></span><span class="brand-name">điểm hẹn<span>.</span></span></a><a class="nav-cta" href="./delete-account.html">Yêu cầu xóa dữ liệu <span aria-hidden="true">↗</span></a></nav></header>
+    <main class="policy-wrap">
+      <div class="eyebrow eyebrow-dark"><span class="eyebrow-dot"></span> THÔNG TIN DÀNH CHO BẠN</div>
+      <h1>Chính sách<br /><em>quyền riêng tư.</em></h1>
+      <p class="policy-lede">Cập nhật lần cuối: 10/11/2026. Chính sách này giải thích dữ liệu Điểm Hẹn xử lý, mục đích sử dụng, dịch vụ nhận dữ liệu và cách bạn yêu cầu xóa.</p>
+      <article class="policy-card">
+        <div class="policy-placeholder"><b>Trước khi phát hành:</b> thay “[Tên pháp lý của nhà phát hành]” và “[Email hỗ trợ]” bằng thông tin liên hệ thật của cá nhân/doanh nghiệp sở hữu ứng dụng.</div>
+        <h2>1. Đơn vị vận hành</h2>
+        <p>Ứng dụng Điểm Hẹn được vận hành bởi <b>[Tên pháp lý của nhà phát hành]</b>. Liên hệ về quyền riêng tư: <b>[Email hỗ trợ]</b>.</p>
+        <h2>2. Dữ liệu được xử lý</h2>
+        <ul>
+          <li>Thông tin tài khoản: tên, email và mật khẩu được lưu dưới dạng băm.</li>
+          <li>Dữ liệu cuộc hẹn: tên nhóm, loại hẹn, ngày/giờ tùy chọn, thành viên, mã mời, lời mời, bình chọn và địa điểm đã chốt.</li>
+          <li>Dữ liệu vị trí do bạn chủ động gửi: tọa độ GPS hoặc địa chỉ nhập tay, phương tiện di chuyển và thời điểm cập nhật.</li>
+          <li>Dữ liệu vận hành: trạng thái online/offline, thông báo, mã push token của thiết bị, thời điểm tạo/cập nhật và thông tin kỹ thuật cần thiết để bảo vệ API.</li>
+        </ul>
+        <h2>3. Mục đích sử dụng</h2>
+        <p>Dữ liệu tài khoản dùng để đăng nhập và quản lý tài khoản. Vị trí dùng để tính tâm nhóm, tìm địa điểm, ước tính thời gian/tuyến đường. Dữ liệu nhóm dùng để chia sẻ tiến độ, bình chọn, gửi lời mời và lưu lịch sử cuộc hẹn.</p>
+        <h2>4. Chia sẻ với thành viên và nhà cung cấp</h2>
+        <p>Thành viên cùng nhóm có thể thấy tên, trạng thái gửi vị trí, lượt bình chọn và thời gian di chuyển ước tính của từng người. Tọa độ/địa chỉ được gửi tới Geoapify để tìm địa điểm, mã hóa địa chỉ và tính một số tuyến đường. OSRM có thể nhận tọa độ đầu/cuối cho tuyến ô tô hoặc tuyến dự phòng. Bản đồ tải các ô bản đồ từ OpenStreetMap hoặc Esri; nhà cung cấp có thể nhận thông tin kết nối và khu vực bản đồ được tải.</p>
+        <p>Nếu bạn cho phép thông báo, ứng dụng gửi mã push token của thiết bị tới máy chủ Điểm Hẹn. Máy chủ dùng Expo Push Service để chuyển thông báo tới thiết bị; Expo và hạ tầng thông báo của Apple/Google có thể xử lý token, nội dung thông báo và dữ liệu giao nhận cần thiết. Bạn có thể tắt quyền thông báo trong cài đặt hệ điều hành; token được gỡ khỏi tài khoản khi bạn đăng xuất thành công hoặc xóa tài khoản.</p>
+        <p>Ứng dụng không dùng vị trí nền; quyền vị trí chỉ được yêu cầu khi bạn chủ động chia sẻ GPS. Nếu không cấp quyền, bạn có thể nhập địa chỉ thủ công.</p>
+        <h2>5. Lưu giữ và xóa</h2>
+        <p>Dữ liệu được lưu trong cơ sở dữ liệu do nhà phát hành cấu hình. Khi rời nhóm, vị trí và bình chọn của bạn trong nhóm đó bị xóa. Lịch sử cuộc hẹn đã chốt có thể được giữ cho các thành viên còn lại. Khi xóa tài khoản, thông tin tài khoản, vị trí, bình chọn, bạn bè, hiện diện, lời mời và thông báo liên quan bị xóa; bản ghi lịch sử còn cần cho người khác sẽ bỏ liên kết nhận dạng của bạn.</p>
+        <p>Bạn có thể xóa tài khoản trong Cài đặt của app hoặc gửi yêu cầu bằng trang web bên dưới. Yêu cầu được xác thực bằng email và mật khẩu tài khoản. Việc xóa thành công là không thể hoàn tác.</p>
+        <h2>6. Bảo vệ dữ liệu</h2>
+        <p>Mật khẩu được băm trước khi lưu; API yêu cầu token xác thực cho dữ liệu tài khoản và nhóm. Không có biện pháp truyền tải hay lưu trữ nào đảm bảo an toàn tuyệt đối; nhà phát hành sẽ xử lý sự cố theo quy định áp dụng.</p>
+        <h2>7. Trẻ vị thành niên và thay đổi chính sách</h2>
+        <p>Điểm Hẹn không được thiết kế riêng cho trẻ em. Khi cách xử lý dữ liệu thay đổi đáng kể, chính sách sẽ được cập nhật tại trang này và ngày cập nhật sẽ thay đổi.</p>
+        <div class="policy-callout">Bạn muốn xóa tài khoản hoặc dữ liệu? <a class="feature-link" href="./delete-account.html">Gửi yêu cầu xóa tại đây <span>↗</span></a></div>
+      </article>
+    </main>
+    <footer class="footer"><div class="footer-inner wrap"><a class="brand footer-brand" href="./index.html"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="12" r="9" stroke="currentColor" stroke-width="2"/><path d="m9 18 7 10 7-10" stroke="currentColor" stroke-width="2"/></svg></span><span class="brand-name">điểm hẹn<span>.</span></span></a><span>Rủ nhau đi, chọn điểm hẹn cùng nhau.</span><a class="back-top" href="./delete-account.html">Xóa tài khoản</a><small>© 2026 Điểm Hẹn</small></div></footer>
+  </body>
+</html>
